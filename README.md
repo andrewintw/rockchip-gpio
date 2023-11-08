@@ -31,8 +31,10 @@ $ ./rk-gpio.sh 131
 GPIO4_A3 <= 131
 ```
 
+Test:
+
 ```bash
-[16:00:06 (main) rockchip-gpio] $ for n in `seq 0 159`; do ./rk-gpio.sh $n; done
+$ for n in `seq 0 159`; do ./rk-gpio.sh $n; done
 GPIO0_A0 <= 0
 GPIO0_A1 <= 1
 GPIO0_A2 <= 2
